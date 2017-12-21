@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
   dwarf_list = []
   array.map.with_index do |dwarf, index|
-    dwarf_list.push("#{index + 1} #{dwarf}")
+    dwarf_list.push("#{index + 1}. #{dwarf}")
   end
 end
 
