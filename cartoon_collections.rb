@@ -3,6 +3,7 @@ def roll_call_dwarves(array)
   array.map.with_index do |dwarf, index|
     dwarf_list.push("#{index + 1}. #{dwarf}")
   end
+  puts dwarf_list
 end
 
 def summon_captain_planet# code an argument here
